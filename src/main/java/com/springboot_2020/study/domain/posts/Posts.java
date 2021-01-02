@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity//테이블과 링크함
-public class Posts {
+public class Posts extends BaseTimeEntity{
 
     @Id//테이블의 pk필드
     @GeneratedValue(strategy = GenerationType.IDENTITY)
