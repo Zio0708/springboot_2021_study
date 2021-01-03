@@ -7,6 +7,9 @@ var main= { //왜 이거 썼냐면 index로 scope를 한정시키기 위해 사�
         $('#btn-update').on('click',function(){
             _this.update();
         })
+        $('#btn-delete').on('click',function(){
+            _this.delete();
+        })
     },
     save : function(){
         var data ={
