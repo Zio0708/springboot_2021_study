@@ -22,7 +22,7 @@ public class indexControllerTest {
     public void 메인페이지_로딩(){
         String body=  this.restTemplate.getForObject("/",String.class);
 
-        assertThat(body).contains("KJH 웹서비스 가보자가보자");
+        assertThat(body).contains("KJH");
     }
 
 }
