@@ -21,4 +21,4 @@ before_install:
 notifications:
   email:
     recipients:
-      - 본인메일 주소
+      - jiho9478@naver.com
