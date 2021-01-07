@@ -1,6 +1,6 @@
 buildscript{
     ext{
-        spirngBootVersion= '2.1.7.RELEASE'
+        spirngBootVersion= '2.1.9.RELEASE'
     }
     repositories{
         mavenCentral()
