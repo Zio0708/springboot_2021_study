@@ -57,7 +57,7 @@ public class OAuthAttributes {
                 .name(name)
                 .email(email)
                 .picture(picture)
-                .role(Role.GUEST)
+                .role(Role.USER)
                 .build();
     }//User엔티티를 만든다 -> OAuthAttributes 에서 엔티티를 만드는 시점은 처음 가입때 그래서 초기설정은 GUEST
 }
